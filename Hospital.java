@@ -33,7 +33,7 @@ public class Hospital {
     	}
     	
     	if(posicion >=0) {
-    		for(int i = posicion; i<contadorpacientes; i++) {
+    		for(int i = posicion; i<contadorpacientes-1; i++) {
     			tpacientes[i] = tpacientes[i+1];
     		}
     		resultado = true;
